@@ -19,7 +19,6 @@
 	workgroup = workgroup
 	server string = Samba Server %v
 	netbios name = centos
-        security = user
 	map to guest = bad user
 	dns proxy = no
 	ntlm auth = yes
