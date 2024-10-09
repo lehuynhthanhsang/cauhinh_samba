@@ -137,7 +137,7 @@ máy muốn truy cập/
 ``` smb://192.168.1.10 ```
 ![](./connect.png)
 ## V. CÀI ĐẶT CẤU HÌNH DOMAIN TRÊN CENTOS SERVER
-### Chuẩn bị:
+### 1. Chuẩn bị:
 - Máy Domain Controller:
   - OS: CentOS 7
   - Hostname: server.sgu.edu.vn
@@ -149,7 +149,7 @@ máy muốn truy cập/
   - Hostname: PC
   - IP Address: 192.168.1.10/24
 
-### 1. Cấu hình
+### 2. Cấu hình
 - Tệp ```/etc/samba/smb.conf```
 ```C++
 [Global]
