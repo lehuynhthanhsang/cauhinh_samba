@@ -99,7 +99,7 @@ groupadd samba
 ```C++ 
 usermod -a -G samba u1
 ```
-### 2. Tạo thư mục chia sẽ file
+### 2. Tạo thư mục chia sẻ file
 ```C++
 mkdir /samba/Share
 ```
