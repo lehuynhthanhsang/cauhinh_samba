@@ -234,7 +234,7 @@ systemctl start nmb
 - Để thực hiện join miền, ta vào máy client. Tại đây, ta phải bảo đảm máy client đã có IP và
 giao tiếp được với máy server. Sau khi đảm bảo được điều này, ta có thể click phải vào ``` my
 computer``` chọn ```Properties``` chọn ```Change settings```, chọn ```Change```.
-![](./share.png)
+![](./change.png)
 - Tại mục domain, gõ tên là sgu để tìm. Sau đó nhập user là root và password đã đặt trước
 đó.
 - Trong trường hợp join mà báo lỗi không thấy domain. Fix lỗi bằng cách vào registry chỉnh sửa như sau:
