@@ -255,9 +255,9 @@ computer``` chọn ```Properties``` chọn ```Change settings```, chọn ```Chan
 
   - Đi theo đường dẫn sau: HKEY_LOCAL_MACHINE -> SYSTEM -> CurrentControlSet -> Services -> LanmanWorkstation -> Parameters.
 
-- Tạo ra 2 file dạng DWORD có tên là:
+  - Tạo ra 2 file dạng DWORD có tên là:
 ```DomainCompatibilityMode``` có value là 1
 ```DNSNameResolutionRequired``` có value là 0
 
-- Sau đó thực hiện join miền bình thường
+  - Sau đó thực hiện join miền bình thường
 
