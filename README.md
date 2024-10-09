@@ -1,4 +1,4 @@
-# Cấu hình Samba chia sẽ file trên CentOS 
+# Cấu hình Samba chia sẻ file trên CentOS 
 
 ## I. Hướng dẫn chuẩn bị
 ### 1. Cài đặt gói samba
