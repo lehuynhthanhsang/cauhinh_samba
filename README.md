@@ -135,7 +135,7 @@ guest ok = no
 - Trên máy CentOS, mở home, vào phần connect to server nhập vào smb://địa chỉ IP của
 máy muốn truy cập/
 ``` smb://192.168.1.10 ```
-
+![](./connect.png)
 ## V. CÀI ĐẶT CẤU HÌNH DOMAIN TRÊN CENTOS SERVER
 ### Chuẩn bị:
 - Máy Domain Controller:
