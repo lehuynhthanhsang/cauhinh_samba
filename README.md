@@ -147,7 +147,7 @@ smbpasswd -a u1
 
 - Trên máy CentOS, mở home, vào phần connect to server nhập vào smb://địa chỉ IP của
 máy muốn truy cập/
-``` smb://192.168.1.10 ```
+``` smb://192.168.1.x ```
 ![](./connect.png)
 ## V. CÀI ĐẶT CẤU HÌNH DOMAIN TRÊN CENTOS SERVER
 ### 1. Chuẩn bị:
@@ -160,7 +160,7 @@ máy muốn truy cập/
 - Và 1 máy client:
   - OS: Windows 
   - Hostname: PC
-  - IP Address: 192.168.1.10/24
+  - IP Address: 192.168.1.x/24
 
 ### 2. Cấu hình
 - Tệp ```/etc/samba/smb.conf```
