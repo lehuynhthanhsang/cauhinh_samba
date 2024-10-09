@@ -116,13 +116,27 @@ smbpasswd -a u1
 ### 3. Cấu hình 
 - Cấu hình tệp tin ```/etc/samba/smb.conf``` và thêm vào đoạn sau:
 ```C++
+[global]
+	workgroup = WORKGROUP
+	server string = Samba_Server
+	netbios name = centos
+	security = user
+	map to guest = bad user
+	dns proxy = no
+	ntlm auth = yes
+[Anonymous]
+	path = /samba/anonymous
+	browsable = yes
+	writable = yes
+	guest ok = yes
+	read only = no
 [Share]
-path = /samba/Share
-browsable = yes
-writable = yes
-read only = no
-valid user = @samba
-guest ok = no
+	path = /samba/Share
+	browsable = yes
+	writable = yes
+	read only = no
+	valid user = @samba
+	guest ok = no
 ```
 - Trên máy Windows, vào run nhập vào địa chỉ IP máy và đăng nhập bằng user vừa tạo:
   ``` \\192.168.1.1 ```
