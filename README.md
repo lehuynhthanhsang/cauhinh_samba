@@ -251,9 +251,9 @@ computer``` chọn ```Properties``` chọn ```Change settings```, chọn ```Chan
 - Tại mục domain, gõ tên là sgu để tìm. Sau đó nhập user là root và password đã đặt trước
 đó.
 - Trong trường hợp join mà báo lỗi không thấy domain. Fix lỗi bằng cách vào registry chỉnh sửa như sau:
-- Mở cmd: nhập ```regedit```
+  - Mở cmd: nhập ```regedit```
 
-- Đi theo đường dẫn sau: HKEY_LOCAL_MACHINE -> SYSTEM -> CurrentControlSet -> Services -> LanmanWorkstation -> Parameters.
+  - Đi theo đường dẫn sau: HKEY_LOCAL_MACHINE -> SYSTEM -> CurrentControlSet -> Services -> LanmanWorkstation -> Parameters.
 
 - Tạo ra 2 file dạng DWORD có tên là:
 ```DomainCompatibilityMode``` có value là 1
